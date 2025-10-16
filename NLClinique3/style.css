@@ -81,14 +81,17 @@
 }
 
 .partners{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
   background-color: rgb(255, 255, 255);
   width: 100%;
   height: 130px;
 }
-
 .partners img{
-  margin: 35px;
-  
+  margin-top: 25px;
+  width: 300px;
+  height: 60px;
 }
 .About{
   display: flex;
@@ -106,12 +109,24 @@
 .about-right h1{
   color:#3498db;
 }
-.numbers{
-  height: 70px;
-  background-color: white;
+
+.stat{
+  background-color: rgb(135, 60, 60);
+  height: 200px;
 }
-.numbers ul{
+.stat h1{
+  color: #3498db;
+  font-weight: bold;
+}
+.stat ul {
   display: flex;
+  justify-content: center;
+  gap: 100px;
   list-style: none;
-  justify-content: space-between;
+  padding: 0;
+}
+
+.stat li {
+  text-align: center;
+  margin-top:80px;
 }
