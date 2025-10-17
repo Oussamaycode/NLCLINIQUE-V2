@@ -2,11 +2,21 @@
   margin:0;
   padding:0;
 }
-
+p{
+  font-family:"Inter", sans-serif;
+}
+h1{
+  font-family: "Inter", sans-serif;
+}
 .acceuil{
   background-image: url("images/Frame\ 1000002035.png");
 }
-
+h6{
+font-family: "Inter", sans-serif;
+}
+h4{
+  font-family: "Inter", sans-serif;
+}
 .menu{
   display: flex;
   justify-content: center;
@@ -83,16 +93,18 @@
 .partners{
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 60px;
   background-color: rgb(255, 255, 255);
   width: 100%;
   height: 130px;
 }
 .partners img{
   margin-top: 25px;
-  width: 300px;
+  width: 250px;
   height: 60px;
 }
+
+
 .About{
   display: flex;
   background-image: url("images/Frame\ 1000001998.png");
@@ -106,27 +118,86 @@
 .about-right{
   margin-left: 200px;
 }
+.about-right p{
+  font-size: 15px;
+  margin: 20px 20px 20px 0px;
+}
 .about-right h1{
+  font-size: 50px;
   color:#3498db;
 }
+.about-right h4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 60px;
+  border-radius: 30px;
+  background: #5ee088;
+  color: white;
+  margin: 20px 20px 20px 0px;
+  font-size: 20px;
+}
+
+
+
 
 .stat{
-  background-color: rgb(135, 60, 60);
+  background-color: white;
   height: 200px;
 }
 .stat h1{
   color: #3498db;
-  font-weight: bold;
+  font-size: 60px;
 }
 .stat ul {
   display: flex;
   justify-content: center;
-  gap: 100px;
+  gap: 200px;
   list-style: none;
   padding: 0;
 }
 
 .stat li {
   text-align: center;
-  margin-top:80px;
+  margin-top:40px;
+}
+.stat li p{
+  margin-top: 20px;
+}
+.our-services{
+  background-color:#f4f8fb;
+}
+.our-services-left{
+  margin-left:120px;
+}
+.our-services-left p{
+  margin-top: ;
+}
+.our-services-right{
+  margin-left: 1300px;
+  margin-top: -80px;
+}
+
+.user-story{
+  margin-top: -25px;
+  border-radius: 30px;
+  border: 2px solid;
+  border-color: rgb(196, 194, 194);
+  padding:30px;
+  width: 500px;
+}
+.more-about-us{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  background:#ff6f61;
+  width: 200px;
+  margin-top: 30px;
+}
+.more-about-us a{
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
 }
