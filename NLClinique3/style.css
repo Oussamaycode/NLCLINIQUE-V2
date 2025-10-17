@@ -191,6 +191,7 @@ h4{
 
 .our-services{
   padding-top: 1px;
+  padding-bottom: 1px;
   background-color: #f4f8fb;
 }
 .our-services-top{
@@ -438,6 +439,7 @@ h4{
   background:#ff6f61;
   width: 200px;
   margin-top: 50px;
+  margin-bottom: 50px;
   padding: 15px;
   gap: 10px;
 }
@@ -445,4 +447,187 @@ h4{
   text-decoration: none;
   color: white;
   font-size: 15px;
+}
+
+.our-doctors{
+  padding-top: 1px;
+  background-color: #ffffff;
+}
+
+.our-doctors-top p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 60px;
+  border-radius: 30px;
+  background: #5ee088;
+  color: white;
+  font-size: 20px;
+  margin-top: 90px;
+  margin-bottom: 30px;
+  margin-left:650px;
+}
+
+.our-doctors-top h1{
+  color:#3498db;
+  font-size:  45px;
+  margin-left: 510px;
+}
+
+.dcard1{
+  background-color: #f4f8fb;
+  margin-top: 50px;
+  margin-left: 120px;
+  width: 400px;
+}
+.dcard1images{
+  display: flex;
+  padding: 30px;
+}
+.dcard2{
+  background-color:#f4f8fb;
+  margin-top: 50px;
+  margin-left: 120px;
+  width: 400px;
+}
+.dcard2images{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:20px;
+}
+.dcard3{
+  background-color: #f4f8fb;
+  margin-top: 50px;
+  margin-right: 120px;
+  margin-left: 120px;
+  width: 400px;
+}
+.dcard3images{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:20px;
+}
+
+.dcardx3{
+  display: flex;
+  justify-content: space-between;
+  gap:0px;
+}
+.dcardx6{
+  display: flex;
+  justify-content: space-between;
+  gap:0px;
+}
+
+.dcard4{
+  background-color: white;
+  margin-top: 50px;
+  margin-left: 120px;
+  width: 400px;
+}
+.dcard4images{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:20px;
+}
+
+.dcard5{
+  background-color: white;
+  margin-top: 50px;
+  margin-left: 120px;
+  width: 400px;
+}
+.dcard5images{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:20px;
+}
+
+
+.dcard6{
+  background-color: white;
+  margin-top: 50px;
+  margin-right: 120px;
+  margin-left: 120px;
+  width: 400px;
+}
+.dcard6images{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:20px;
+}
+
+
+.dcard1{
+  border-radius: 30px;
+}
+
+.dcard2{
+  border-radius: 30px;
+}
+.dcard3{
+  border-radius: 30px;
+}
+.dcard4{
+  border-radius: 30px;
+}
+.dcard5{
+  border-radius: 30px;
+}
+.dcard6{
+  border-radius: 30px;
+}
+.dcard1text{
+  padding: 20px;
+}
+.dcard1text h4{
+  font-size: 30px;
+  color:#5997cb;
+  margin-bottom: 20px;
+}
+.dcard2text{
+  padding: 20px;
+}
+.dcard2text h4{
+  font-size: 30px;
+  color:#5997cb;
+  margin-bottom: 20px;
+}
+.dcard3text{
+  padding: 20px;
+}
+.dcard3text h4{
+  font-size: 30px;
+  color:#5997cb;
+  margin-bottom: 20px;
+}
+.dcard4text{
+  padding: 20px;
+}
+.dcard4text h4{
+  font-size: 30px;
+  color:#5997cb;
+  margin-bottom: 20px;
+}
+.dcard5text{
+  padding: 20px;
+}
+.dcard5text h4{
+  font-size: 30px;
+  color:#5997cb;
+  margin-bottom: 20px;
+}
+.dcard6text{
+  padding: 20px;
+}
+.dcard6text h4{
+  font-size: 30px;
+  color:#5997cb;
+  margin-bottom: 20px;
 }
