@@ -8,15 +8,21 @@ p{
 h1{
   font-family: "Inter", sans-serif;
 }
-.acceuil{
-  background-image: url("images/Frame\ 1000002035.png");
-}
+
 h6{
 font-family: "Inter", sans-serif;
 }
+
 h4{
   font-family: "Inter", sans-serif;
 }
+h5{
+   font-family: "Inter", sans-serif;
+}
+.acceuil{
+  background-image: url("images/Frame\ 1000002035.png");
+}
+
 .menu{
   display: flex;
   justify-content: center;
@@ -483,8 +489,10 @@ h4{
 }
 .dcard1images{
   display: flex;
-  padding: 30px;
+  justify-content: center;
+  align-items: center;
 }
+ 
 .dcard2{
   background-color:#f4f8fb;
   margin-top: 50px;
@@ -493,9 +501,8 @@ h4{
 }
 .dcard2images{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding:20px;
 }
 .dcard3{
   background-color: #f4f8fb;
@@ -506,10 +513,11 @@ h4{
 }
 .dcard3images{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding:20px;
 }
+
+
 
 .dcardx3{
   display: flex;
@@ -523,34 +531,32 @@ h4{
 }
 
 .dcard4{
-  background-color: white;
+  background-color: #f4f8fb;
   margin-top: 50px;
   margin-left: 120px;
   width: 400px;
 }
 .dcard4images{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding:20px;
 }
 
 .dcard5{
-  background-color: white;
+  background-color: #f4f8fb;
   margin-top: 50px;
   margin-left: 120px;
   width: 400px;
 }
 .dcard5images{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding:20px;
 }
 
 
 .dcard6{
-  background-color: white;
+  background-color: #f4f8fb;
   margin-top: 50px;
   margin-right: 120px;
   margin-left: 120px;
@@ -558,9 +564,8 @@ h4{
 }
 .dcard6images{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding:20px;
 }
 
 
@@ -589,7 +594,19 @@ h4{
 .dcard1text h4{
   font-size: 30px;
   color:#5997cb;
+  margin-left: 50px;
   margin-bottom: 20px;
+}
+
+.dcard1text h5{
+  font-size: 20px;
+  color: #ff6f61;
+  margin-left: 95px;
+
+}
+.dcard1text p{
+  margin-top: 20px;
+  margin-left: 25px;
 }
 .dcard2text{
   padding: 20px;
@@ -597,16 +614,41 @@ h4{
 .dcard2text h4{
   font-size: 30px;
   color:#5997cb;
+  margin-left: 50px;
   margin-bottom: 20px;
 }
+.dcard2text h5{
+  font-size: 20px;
+  color: #ff6f61;
+  margin-left: 120px;
+
+}
+.dcard2text p{
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
 .dcard3text{
   padding: 20px;
 }
+
+.dcard3text p{
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
 .dcard3text h4{
   font-size: 30px;
   color:#5997cb;
   margin-bottom: 20px;
+  margin-left: 20px;
 }
+.dcard3text h5{
+  font-size: 20px;
+  color: #ff6f61;
+  margin-left: 100px;
+}
+
 .dcard4text{
   padding: 20px;
 }
@@ -614,7 +656,18 @@ h4{
   font-size: 30px;
   color:#5997cb;
   margin-bottom: 20px;
+  margin-left: 50px;
 }
+.dcard4text h5{
+  font-size: 20px;
+  color: #ff6f61;
+  margin-left: 90px;
+}
+.dcard4text p{
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
 .dcard5text{
   padding: 20px;
 }
@@ -622,6 +675,19 @@ h4{
   font-size: 30px;
   color:#5997cb;
   margin-bottom: 20px;
+  margin-left: 60px;
+}
+
+.dcard5text h5{
+  font-size: 20px;
+  color: #ff6f61;
+  margin-left: 115px;
+
+}
+
+.dcard5text p{
+  margin-top: 20px;
+  margin-left: 25px;
 }
 .dcard6text{
   padding: 20px;
@@ -630,4 +696,14 @@ h4{
   font-size: 30px;
   color:#5997cb;
   margin-bottom: 20px;
+  margin-left: 60px;
+}
+.dcard6text h5{
+  font-size: 20px;
+  color: #ff6f61;
+  margin-left: 110px;
+}
+.dcard6text p{
+  margin-top: 20px;
+  margin-left: 25px;
 }
