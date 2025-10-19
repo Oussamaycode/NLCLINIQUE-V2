@@ -29,54 +29,60 @@
                 <i class="fa-solid fa-magnifying-glass search-icon"></i>
                 <input type="text" placeholder="Search">
             </div>
-        </div>
         </header>
-        <section class="About">
-            <div class="about-left">
-            <img src="images/Frame 1000001923.png" id="i3">
-            </div>
-            <div class="about-right">
-                <h4>ABOUT US</h4>
-                <h1>We Are Always Ensure<br>Best Medical treatment</h1>
-                <p>We are dedicated to providing top-quality medical care with trusted doctors, modern<br>equipment, and a patient-first approach. Your health and comfort are always our priority.</p>
-                <img src="images/Frame 142.png">
-                <div class="user-story">
-                  <p>"The clinic provided excellent care. The staff and doctors were professional, welcoming, and made me feel safe throughout my treatment. Highly recommended!"</p>
-                  <img src="images/Frame 138.png">
+
+        <section class="book-appointment-section">
+    <div class="appointment-form-container">
+        <button class="btn-book-appointment">BOOK AN APPOINTMENT</button>
+        <h2 class="form-title">Book Your Appointment by Filling in This Form Below</h2>
+        <form>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" value="mymail@l">
                 </div>
-                <div class="more-about-us">
-                    <p><a href="about us">More about us</a></p>
-                    <img src="images/arrow-right.png">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Input Email">
                 </div>
             </div>
-        </section>
-        <div class="stat">
-          <ul>
-            <li class="rp">
-                <h1>500k+</h1>
-                <p>Recovered patients</p>
-            </li>
-            <li class="ed">
-               <h1>90+</h1>
-               <p>Expert Doctors</p>
-            </li>
-            <li class="sr">
-                <h1>95%</h1>
-                <p>Satisfaction Rate</p>
-            </li>
-            <li class="awards">
-                <h1>100+</h1>
-                <p>Awards</p>
-            </li>
-          </ul>
-        </div>
-        <div class="partners">
-            <img src="images/partner1.png">
-            <img src="images/partner2.png">
-            <img src="images/partner3.png">
-            <img src="images/partner4.png">
-        </div>
-        <footer>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="doctor-type">Doctor Type</label>
+                    <select id="doctor-type">
+                        <option>Choose Doctor Type</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="doctor-name">Doctor Name</label>
+                    <select id="doctor-name">
+                        <option>Choose Doctor Name</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="date">Date</label>
+                    <select id="date">
+                        <option>Choose Date</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="time">Time</label>
+                    <select id="time">
+                        <option>Choose Time</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="description">Description</label>
+                <textarea id="description">Hallo world</textarea>
+            </div>
+            <button type="submit" class="btn-form-submit">Send →</button>
+        </form>
+    </div>
+</section>
+<footer>
     <div class="footer-container">
         <div class="footer-left">
             <img src="media/footerlogo.png" alt="NLClinique Logo" class="footer-logo">
@@ -120,4 +126,3 @@
         </div>
     </div>
 </footer>
-</body>
