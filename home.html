@@ -3,58 +3,107 @@
 <head>
 <link rel="stylesheet" href="style.css">
 <body>
-    <div class="acceuil">
+
+        <div class="background-container">
+        <img src="media/backround.png" alt="Blue gradient background" id="bg">
+    </div>
+
+    <div class="main-container">
         <header>
-            <div class="menu">
-            <ul>
-                <div class="menu-home">
-                    <li><a href="Home.html">Home</a></li>
-                    <img src="images/under.png" id="under">
+            <div class="nleft">
+                <a href="index.html">
+                    <img src="media/logo.png" alt="NLClinique Logo" height="80">
+                </a>
+            </div>
+            <nav>
+                <div class="nav-link-active">
+                    <a href="#">Home</a>
+                    <img src="media/under.png" alt="underline">
                 </div>
-            <li><a href="About-us.html">About</a></li>
-            <li><a href="Doctors.html">Doctors</a></li>
-            <li><a href="Services.html">Services</a></li>
-            <li>
-            <div class="search-box">
+                <a href="pages/about.html">About</a>
+                <a href="pages/doctors.html">Doctors</a>
+                <a href="pages/services.html">Services</a>
+                <a href="pages/contact.html">Contact</a>
+            </nav>
+            <div class="nright">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
                 <input type="text" placeholder="Search">
             </div>
-            </li>
-            </ul>
-            </div>
         </header>
-    <section class="hero">
-    <div class="hero-content">
-        <div class="hleft">
-            <img src="images/logo.png" id="logo">
-         <p>Your health is our priority</p>
-         <br>
-         <h1> More than Medicine<br>it's personal</h1>
-         <br>
-         <p>Wellnes hospital will always serve you<br>wholeheartdly.Health is a priority</p>
-         <br>
-         <a href="book-appointment.html">Book Appointment</a>
-         <span class="or-text">or</span>
-         <a href="contact.html" >Contact Us</a>
-         <div class="horaire">
-            <div class="horleft">
-            <img src="images/Frame 128.png" id="i2">
-            </div>
-            <div class="horright">
-            <h6>Open hours</h6>
-            <br>
-            <p >Mon-Fri | 8:00 AM to 5:00 PM</p>
-            <br>
-            <p>Sat-Sun | 9:00 AM to 3:00 PM</p>
+
+         <section class="hero">
+            <div class="hleft">
+                <div class="nzl"></div>
+
+
+                <div class="priority-tag">
+                    <p>YOUR HEALTH IS OUR PRIORITY</p>
+                </div>
+                
+                <h1>More Than Medicine <br>It's Personal</h1>
+                <h5>Wellness Hospital will always serve you <br>wholeheartedly. Health is a priority.</h5>
+
+                <div class="hero-buttons">
+                    <button class="btn-primary">Book Appointment
+                        <img src="media/arrow-right.png" alt="arrow right">
+                    </button>
+                    <span>or</span>
+                    <button class="btn-secondary">Contact Us</button>
+                </div>
+
+                <div class="open-hours">
+                    <div class="hours-icon-container">
+                        <img src="media/hours-icon.png" alt="clock icon">
+                    </div>
+                    <div class="hours-text">
+                        <h3>Open Hours</h3>
+                        <p>Mon - Fri | 08:00 AM to 05:00 PM</p>
+                        <p>Sat - Sun | 09:00 AM to 03:00 PM</p>
+                    </div>
+                </div>
             </div>
 
-         </div>
-        </div>
-        <div class="hright">
-         <img src="images/hero asset 1.png" id="i1">
-        </div>
-    </div>
-    </section>
-    </div>
+            <div class="hright">
+                <img src="media/hdoctor.png" alt="Smiling female doctor" class="doctor-img">
+                <div class="appointment-card">
+                    <div class="form-row">
+
+                        <div class="form-group">
+                            <i class="fa-solid fa-stethoscope"></i>
+                            <select>
+                                <option disabled selected>Doctor Type</option>
+                                <option>Cardiologist</option>
+                                <option>Dermatologist</option>
+                                <option>Neurologist</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <i class="fa-solid fa-user-doctor"></i>
+                            <select>
+                                <option disabled selected>Doctor Name</option>
+                                <option>Dr. Jane Doe</option>
+                                <option>Dr. John Smith</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <select>
+                                <option disabled selected>Date</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <i class="fa-solid fa-clock"></i>
+                            <select>
+                                <option disabled selected>Time</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button class="btn-check">Check Doctor Availability</button>
+                </div>
+            </div>
+        </section>
     <div class="partners">
             <img src="images/partner1.png">
             <img src="images/partner2.png">
@@ -439,4 +488,99 @@
                 <img src="images/arrow-right.png">
             </div>
         </section>
+        <section class="book-appointment-section">
+    <div class="appointment-form-container">
+        <button class="btn-book-appointment">BOOK AN APPOINTMENT</button>
+        <h2 class="form-title">Book Your Appointment by Filling in This Form Below</h2>
+        <form>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" value="mymail@l">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Input Email">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="doctor-type">Doctor Type</label>
+                    <select id="doctor-type">
+                        <option>Choose Doctor Type</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="doctor-name">Doctor Name</label>
+                    <select id="doctor-name">
+                        <option>Choose Doctor Name</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="date">Date</label>
+                    <select id="date">
+                        <option>Choose Date</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="time">Time</label>
+                    <select id="time">
+                        <option>Choose Time</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="description">Description</label>
+                <textarea id="description">Hallo world</textarea>
+            </div>
+            <button type="submit" class="btn-form-submit">Send →</button>
+        </form>
+    </div>
+</section>
+<footer>
+    <div class="footer-container">
+        <div class="footer-left">
+            <img src="media/footerlogo.png" alt="NLClinique Logo" class="footer-logo">
+            <p>Nullam ultrices lorem et augue placerat blandit. Nam nisl lacus, imperdiet quis dui pretium, pretium vehicula turpis. Fusce scelerisque fermentum lacinia.</p>
+            <form class="subscribe-form">
+                <input type="email" placeholder="Email Address">
+                <button type="submit">Subscribe</button>
+            </form>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-right">
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="#">Home</a>
+                <a href="#">About Me</a>
+                <a href="#">Portfolio</a>
+                <a href="#">Blog</a>
+                <h4>Location</h4>
+                <p><strong>Surabaya</strong></p>
+                <p>Jl. Danau Jonge 12, Mayjend Sungkono, Surabaya</p>
+            </div>
+            <div class="footer-links">
+                <h4>Work Category</h4>
+                <a href="#">Architecture</a>
+                <a href="#">Nature</a>
+                <a href="#">Modelling</a>
+                <a href="#">Event</a>
+                <a href="#">Branding</a>
+            </div>
+            <div class="footer-links">
+                <h4>Legal</h4>
+                <a href="#">Return Policy</a>
+                <a href="#">Shipping Policy</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Services</a>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
